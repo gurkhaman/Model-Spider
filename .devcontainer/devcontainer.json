@@ -1,0 +1,17 @@
+{
+    "name": "Model-Spider",
+    "image": "pytorch/pytorch:2.6.0-cuda12.6-cudnn9-runtime",
+    "runArgs": [
+        "--gpus",
+        "all"
+    ],
+    "shutdownAction": "none",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
